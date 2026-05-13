@@ -9,10 +9,13 @@ Sistema de solicitações organizadas de compras internas, desenvolvido como par
 - JavaScript (puro, sem frameworks)
 
 ## 📁 Estrutura do Projeto
+
+```
 VinciPurchases/
 ├── index.html   # Estrutura da página
 ├── style.css    # Estilização visual
 └── script.js    # Lógica e validações
+```
 
 ## ⚙️ Como Rodar o Projeto
 
