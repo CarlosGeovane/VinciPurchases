@@ -4,23 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Solicitações de Compra</title>
-    <!-- Importa o arquivo de estilos -->
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <!-- Cabeçalho da página -->
       <header>
         <h1>Sistema de Solicitações de Compra</h1>
         <p>Preencha o formulário para registrar uma nova solicitação</p>
       </header>
 
-      <!-- Formulário de solicitação -->
       <section class="form-section">
         <h2>Nova Solicitação</h2>
 
         <form id="purchaseForm">
-          <!-- Campo: Nome do solicitante -->
           <div class="form-group">
             <label for="requesterName">Nome do Solicitante</label>
             <input
@@ -30,7 +27,6 @@
             />
           </div>
 
-          <!-- Campo: Produto -->
           <div class="form-group">
             <label for="product">Produto</label>
             <input
@@ -40,7 +36,6 @@
             />
           </div>
 
-          <!-- Campo: Valor -->
           <div class="form-group">
             <label for="value">Valor da Compra (R$)</label>
             <input
@@ -52,22 +47,18 @@
             />
           </div>
 
-          <!-- Mensagem de erro (aparece só quando há erro) -->
           <div id="errorMessage" class="error-message hidden"></div>
 
-          <!-- Botão de envio -->
           <button type="submit">Enviar Solicitação</button>
         </form>
       </section>
 
-      <!-- Lista de solicitações enviadas -->
       <section class="requests-section hidden" id="requestsSection">
         <h2>Solicitações Registradas</h2>
         <div id="requestsList"></div>
       </section>
     </div>
 
-    <!-- Importa o arquivo de lógica -->
     <script src="script.js"></script>
   </body>
 </html>
